@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+table {
+  width: 50%;
+  margin: 5% auto 0 auto;
+  border-collapse: collapse;
+  font-family: 'Nunito', sans-serif;
+}
+thead {
+  border-bottom: 2px solid #6678b1;
+}
+th {
+  color: #003399;
+  text-align: left;
+  padding: 12px 8px;
+}
+td {
+  padding: 8px;
+  color: #669;
+}
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+tr:hover {
+  cursor: default;
+}
+
+tr:hover td{
+  color: #003399;
+  background: #eeeeef;
+}
