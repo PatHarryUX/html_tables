@@ -1,0 +1,1 @@
+populate_table(data);

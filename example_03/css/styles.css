@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:300,400,700');
+table {
+  font-family: 'Overpass', sans-serif;
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 1px solid #aab;
+  margin-top: 40px;
+}
+th {
+  border-bottom: 1px dashed #aab;
+  text-align: left;
+  padding: 12px 48px 12px 12px;
+  font-weight: 800;
+}
+
+td {
+  padding: 12px 48px 12px 12px;
+  font-weight: 300;
+}
+
+tr:hover td {
+  background: #eef;
+  cursor: default;
+}
+
+tr:nth-child(even) {
+  background: #dde;
+}
